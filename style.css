@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,800;1,400;1,800&family=Nova+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: nova round;
+}
+
+body {
+
+    margin: 0rem 5rem;
+    background: #D9D9D9;
+}
+header{
+    height: 8rem;
+    width: 100%;
+    /*background-color: antiquewhite;*/
+    padding-top: .1rem;
+}
+
+button{
+    background-color: #EE5004; 
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.contactDetails {
+    display: flex;
+    margin-left: 3rem;
+}
+
+.contactDetails img {
+    margin-top: 0.1rem;
+    height: 1rem;
+    width: 1rem;
+}
+.contactDetails p {
+    margin: 0rem 3rem 0rem .3rem;
+}
+
+.butAndSocials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.butAndSocials button {
+    height: 1.2rem;
+    width: 5rem;
+    border-radius: 2rem;
+}
+
+.socials {
+    display: flex;
+    margin: auto .5rem;
+}
+.socials ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.socials ul li {
+    margin-right: 0.5rem;
+}
+
+.socials img {
+    height: 1rem;
+    width: 1rem;
+}
+
+header hr{
+    margin: 1rem 1rem 1rem 7rem ;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom .logo img {
+    width: 8rem;
+    height: 6rem;
+    margin-top: -2rem;
+}
+
+.bottom .navMenu ul {
+    display: flex;
+}
+
+.bottom .navMenu ul li {
+    margin-right: 1rem;
+    font: black;
+}
+
+
+
+
+
+
+
+
+
+
